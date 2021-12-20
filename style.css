@@ -1,0 +1,925 @@
+
+/*My Code*/
+
+body{
+	margin: auto;
+	background-color: #262424;
+}
+
+@keyframes slider{
+
+	0%{
+		left: 0;
+	}
+
+	16%{ /*4 sec*/
+		left: 0;
+	}
+
+	21%{ /*5 sec*/
+		left: -100%;
+	}
+
+	37%{ /*9 sec*/
+		left: -100%;
+	}
+
+	42%{ /*10 sec*/
+		left: -200%;
+	}
+
+	58%{ /*14 sec*/
+		left: -200%;
+	}
+
+	63%{ /*15 sec*/
+		left: -300%;
+	}
+
+	79%{
+		left: -300%;
+	}
+
+	84%{
+		left: -400%;
+	}
+
+	100%{
+		left: -400%;
+	}
+}
+
+	#slider{
+	overflow: hidden;
+    }
+
+	#slider figure img{
+		width: 20%;
+		float: left;
+		margin-top: 40px;
+	}
+
+	#slider figure{
+		position: relative;
+		width: 500%; /*joto pic toto*100 percent...5ta pic tai 500%*/
+		margin: 0;
+		left: 0;
+		text-align: left;
+		font-size: 0;
+		animation: 20s slider infinite;
+	}
+
+
+#loggeduserbackgroundpic{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(image/loggeduserhome.jpg);
+}
+
+#logout{
+	box-sizing: border-box;
+	color: #000;
+	background-color: #898383;
+	height: 35px;
+	font-size: 15px;
+	cursor: pointer;
+	margin: 33px 139px;
+}
+
+#aboutusbox{
+	height: 412px;
+	width: 1000px;
+	box-sizing: border-box;
+	color: #fff;
+	font-family: sans-serif;
+	background-color: #000;
+	font-size: 24px;
+	margin-left: 258px;
+	margin-top: 100px;
+}
+
+#aboutuswrite{
+	float: left;
+	margin: 30px 30px;
+	text-align: center;
+}
+
+#aboutusmypic{
+	height: 311px;
+	width: 276px;
+	margin: 46px 30px;
+	float: left;
+}
+
+#containerfront{
+	height: 741px;
+	width:1500px;
+	border: none;
+	margin:auto;
+}
+
+#containertravels{
+	height: 918px;
+	width:1500px;
+	border: none;
+	margin:auto;
+	font-family: sans-serif;
+}
+
+
+
+#containerdetails{
+	height: 1500px;
+	width:1500px;
+	border: none;
+	margin:auto;
+	font-family: sans-serif;
+}
+
+
+#container{
+	height: 1000px;
+	width:1100px;
+	margin:auto;
+}
+#header{
+	height: 100px;
+	width: 1800px;
+	border:1px solid black;
+	margin: auto;
+	background-color: #000;
+	opacity: .8;
+}
+#logo{
+	height: 100px;
+	width: 230px;
+	float: left;
+	margin: auto;
+}
+#navbar{
+	height: 100px;
+	width: 1340px;
+	float: left;
+	text-decoration: none;
+	text-align: center;
+	margin:auto;
+}
+#account{
+	height: 100px;
+	width: 213px;
+	float: left;
+	margin: auto;
+}
+nav ul{
+	margin:0px;
+	list-style: none;
+	margin-left: 125px;
+	text-decoration: none;
+	cursor: none;
+	opacity: .8;
+	color: #fff;
+}
+nav ul li{
+	width: 135px;
+	height: 47px;
+	border: none;
+	display: block;
+	float: left;
+	font-size: 21px;
+	margin-left: 28px;
+	line-height: 46px;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 25px;
+	background-color: #fb2525;
+	color: #fff;
+	border-radius: 20px;
+	font-size: 25px;
+}
+
+#new nav ul{
+	margin:0px;
+	border: 1px solid black;
+	list-style: none;
+	margin-left: 125px;
+	text-decoration: none;
+	cursor: none;
+	opacity: .8;
+	color: #fff;
+}
+
+#new nav ul li{
+	width: 135px;
+	height: 47px;
+	border: none;
+	display: block;
+	float: left;
+	font-size: 21px;
+	margin-left: 150px;
+	line-height: 46px;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 25px;
+	background-color: #fb2525;
+	color: #fff;
+	border-radius: 20px;
+	font-size: 25px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+nav ul li:hover{
+	background-color: #ffc107;
+	cursor: pointer;
+}
+
+nav ul li ul li{
+	width: 303px;
+	height: 47px;
+	font-size: 21px;
+	margin-left: 26px;
+	line-height: 46px;
+	text-align: left;
+	text-decoration: none;
+	margin-top: 25px;
+	background-color: #fb2525;
+	border-radius: 0%;
+	color: #fff;
+	display: none;
+	margin: 0px -167px;
+	padding: 0px 16px;
+	border: 0px;
+	font-size: 25px;
+}
+
+nav ul li:hover ul li{
+	display: block;
+}
+
+#footer{
+	height: 100px;
+	width: 1842px;
+	margin: auto;
+	background-color: #000;
+	opacity: .8;
+	font-size: 80px;
+	color: white;
+}
+
+#containeradminlogin{
+	height: 675px;
+	width:1100px;
+	border: none;
+	margin:auto;
+	padding-top: 213px;
+}
+
+#adminLoginPageHeader{
+	width: 288px;
+	height: 65px;
+	
+	border: 2px solid grey;
+	display: block;
+	float: left;
+	font-size: 35px;
+	margin-left: 370px;
+	line-height: 58px;
+	text-align: center;
+	margin-top: 15px;
+	background-color: black;
+	color: #fff;
+	cursor: pointer;	
+}
+
+#frontPageHeader{
+	width: 288px;
+	height: 65px;
+	border: none;
+	border-radius: 30px;
+	display: block;
+	float: left;
+	font-size: 35px;
+	margin-left: 592px;
+	line-height: 58px;
+	text-align: center;
+	margin-top: 15px;
+	background-color: #fb2525;
+	color: #fff;
+	cursor: pointer;
+}
+
+#afterloggedheader{
+	width: 288px;
+	height: 65px;
+	border: none;
+	border-radius: 30px;
+	display: block;
+	float: left;
+	font-size: 35px;
+	margin-left: 353px;
+	line-height: 58px;
+	text-align: center;
+	margin-top: 15px;
+	background-color: #fb2525;
+	color: #fff;
+	cursor: pointer;
+}
+
+#adminloginbody{
+	margin: auto;
+	padding: 0px;
+	background: url(image/adminloginform.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+#userloginbody{
+	margin: auto;
+	padding: 0px;
+	background: url(image/userloginform.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+#regloginbody{
+	margin: auto;
+	padding: 0px;
+	background: url(image/w.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+.loginBox{
+	margin-left: 356px;
+	width: 400px;
+	height: 480px;
+	background: #000;
+	color: #fff;
+	box-sizing: border-box;
+	padding: 70px 30px;
+	opacity: .8;
+}
+
+#messagebox{
+	margin-left: 300px;
+	width: 500px;
+	height: 590px;
+	background: #000;
+	color: #fff;
+	box-sizing: border-box;
+	padding: 70px 30px;
+	margin-top: 200px;
+}
+
+#messageboxadd{
+	margin-left: 496px;
+	width: 500px;
+	height: 590px;
+	background: #000;
+	color: #fff;
+	box-sizing: border-box;
+	padding: 70px 30px;
+	margin-top: 200px;
+}
+
+
+.formhead{
+	width: 110px;
+	height: 110px;
+	border-radius: 1%;
+	top: -50px;
+	position: absolute;
+	padding-top: 310px;
+	left: calc(50% - 50px);
+}
+
+h1{
+	margin: 0;
+	padding: 0px 0px 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.loginBox p{
+	padding: 0px;
+	margin: 0px;
+	font-weight: bold;
+}
+
+.loginBox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.loginBox input[type="text"], input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+
+#messagebox input[type="text"]{
+	border: 1px solid grey;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	width: 240px;
+}
+
+#messagebox input[type="message"]{
+	border: 1px solid grey;
+	background: transparent;
+	outline: none;
+	height: 270px;
+	color: #fff;
+	font-size: 16px;
+	width: 431px;
+	text-align: top;
+}
+
+#messageboxadd input[type="text"]{
+	border: 1px solid grey;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	width: 240px;
+}
+
+#messageboxadd input[type="message"]{
+	border: 1px solid grey;
+	background: transparent;
+	outline: none;
+	height: 270px;
+	color: #fff;
+	font-size: 16px;
+	width: 431px;
+	text-align: top;
+}
+
+.loginBox input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 45px;
+	width: 165px;
+	position: absolute;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-top: 0;
+	font-size: 21px;
+	margin: auto;
+}
+
+.loginBox input[type="submit"]:hover{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+
+#messagebox input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 45px;
+	width: 165px;
+	position: absolute;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-top: 0;
+	font-size: 21px;
+	margin: 294px -287px;
+	float: left;
+}
+
+#messageboxadd input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 45px;
+	width: 165px;
+	position: absolute;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-top: 0;
+	font-size: 21px;
+	margin: 186px -105px;
+	float: left;
+}
+
+#messagebox input[type="submit"]:hover{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+
+
+#messageboxadd input[type="submit"]:hover{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+
+.loginBox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+}
+
+.loginBox a:hover{
+	color: #ffc107;
+}
+
+
+#backfromadmintofront{
+	border: none;
+	outline: none;
+	height: 45px;
+	width: 365px;
+	position: absolute;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 31px;
+	padding-left: -5px;
+	padding-top:12px;
+	font-size: 24px;
+	margin: auto;
+	margin-left: 375px;
+	margin-top: 42px;
+	text-align: center;
+}
+
+#backfromadmintofront:hover{
+	cursor: pointer;
+	color: #000;
+	background-color: #ffc107;
+}
+
+.RegloginBox{
+	margin-left: 289px;
+	width: 535px;
+	height: 1036px;
+	background: #000;
+	color: #fff;
+	box-sizing: border-box;
+	padding: 70px 30px;
+	opacity: .8;
+}
+
+.RegloginBox p{
+	padding: 0px;
+	margin: 0px;
+	font-weight: bold;
+}
+
+.RegloginBox input{
+	width: 100%;
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+
+
+.RegloginBox input[type="text"], input[type="password"], input[type="email"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 35px;
+	color: #fff;
+	font-size: 17px;
+
+}
+
+.RegloginBox input[type="number"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 35px;
+	color: #fff;
+	font-size: 17px;
+	float: left;
+}
+
+.RegloginBox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 45px;
+	width: 165px;
+	position: absolute;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-top: 0;
+	font-size: 21px;
+	margin: auto;
+}
+
+.RegloginBox input[type="submit"]:hover{
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+
+.RegloginBox a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+}
+
+.RegloginBox a:hover{
+	color: #ffc107;
+}
+
+#containerReglogin{
+	height: 1180px;
+	width:1100px;
+	border: none;
+	margin:auto;
+	padding-top: 100px;
+}
+
+.formheadReg{
+	width: 110px;
+	height: 110px;
+	border-radius: 1%;
+	top: -50px;
+	position: absolute;
+	padding-top: 198px;
+	left: calc(50% - 49px);
+}
+
+#rd{
+	margin: 141px;
+	margin-left: -232px;
+	margin-top: 20px;
+	margin-bottom: 3px;
+}
+
+#rd:hover{
+	cursor: pointer;
+}
+
+#but{
+	font-size: 23px;
+	margin-left: -356px;
+}
+
+#sub{
+	margin-left: 152px;
+}
+
+#subadmin{
+	margin-left: 87px;
+	margin-bottom: 0px;
+	margin-top: 16px;
+}
+
+#subuser{
+	margin-left: 87px;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+
+#subuseradd{
+	margin-left: 87px;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+
+#welcomeNote{
+	margin-left: 47px;
+	margin-top: 43px;
+	width: 1400px;
+	height: 260px;
+	background: #000;
+	color: #fff;
+	box-sizing: border-box;
+	padding: 70px 30px;
+	opacity: .8;
+}
+
+#welcomeNote h1{
+	font-size: 45px;
+	margin-top: -22px;
+}
+
+#welcomeNote p{
+	font-size: 22px;
+	margin-left: 70px;
+	margin-right: 70px;
+	text-align: center;
+}
+
+#detailsNote{
+	margin-left: 47px;
+	margin-top: 43px;
+	width: 1400px;
+	height: 350px;
+	background: #000;
+	color: #fff;
+	box-sizing: border-box;
+	padding: 70px 30px;
+	opacity: .8;
+}
+
+#detailsNote h1{
+	font-size: 45px;
+	margin-top: -22px;
+}
+
+#detailsNote p{
+	font-size: 22px;
+	margin-left: 70px;
+	margin-right: 70px;
+	text-align: center;
+}
+
+#bodyfront{
+	background-image: url("image/59.jpg");
+	background-size: cover;
+
+}
+
+#adminfront{
+	margin-left: 47px;
+	margin-top: 43px;
+	width: 440px;
+	height: 395px;
+	background: #000;
+	color: #fff;
+	box-sizing: border-box;
+	padding: 70px 30px;
+	opacity: .8;
+	float: left;
+}
+
+#adminfront h1{
+	font-size: 40px;
+	margin-top: -22px;
+}
+
+#adminfront p{
+	font-size: 22px;
+	margin-left: 30px;
+	margin-right: 30px;
+	text-align: center;
+}
+
+#frontadminsubmit{
+	border: none;
+	outline: none;
+	height: 45px;
+	width: 165px;
+	position: absolute;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 31px;
+	padding-left: -5px;
+	padding-top:12px;
+	font-size: 24px;
+	margin: auto;
+	margin-left: 110px;
+	margin-top: 42px;
+	text-align: center;
+}
+
+#frontadminsubmit:hover{
+	cursor: pointer;
+	color: #000;
+	background-color: #ffc107;
+}
+
+#userfront{
+	margin-left: 41px;
+	margin-top: 43px;
+	width: 440px;
+	height: 395px;
+	background: #000;
+	color: #fff;
+	box-sizing: border-box;
+	padding: 70px 30px;
+	opacity: .8;
+	float: left;
+}
+
+#userfront h1{
+	font-size: 40px;
+	margin-top: -22px;
+}
+
+#userfront p{
+	font-size: 22px;
+	margin-left: 30px;
+	margin-right: 30px;
+	text-align: center;
+}
+
+#frontuserp{
+	margin-top: 14px;
+}
+
+#frontusersubmit{
+	border: none;
+	outline: none;
+	height: 45px;
+	width: 165px;
+	position: absolute;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 31px;
+	padding-left: -5px;
+	padding-top:12px;
+	font-size: 24px;
+	margin: auto;
+	margin-left: 110px;
+	margin-top: 16px;
+	text-align: center;
+}
+
+#frontusersubmit:hover{
+	cursor: pointer;
+	color: #000;
+	background-color: #ffc107;
+}
+
+#regfront{
+	margin-left: 1009px;
+	margin-top: 43px;
+	width: 440px;
+	height: 395px;
+	background: #000;
+	color: #fff;
+	box-sizing: border-box;
+	padding: 70px 30px;
+	opacity: .8;
+}
+
+#regfront h1{
+	font-size: 40px;
+	margin-top: -22px;
+}
+
+#regfront p{
+	font-size: 22px;
+	margin-left: 30px;
+	margin-right: 30px;
+	text-align: center;
+}
+
+#travelsbox{
+	margin-left: 47px;
+	margin-top: 43px;
+	width: 440px;
+	height: 395px;
+	background: #000;
+	color: #fff;
+	box-sizing: border-box;
+	padding: 70px 30px;
+	opacity: .8;
+	float: left;
+}
+
+#travelsbox h1{
+	font-size: 40px;
+	margin-top: -22px;
+}
+
+#travelsbox p{
+	font-size: 22px;
+	margin-left: 30px;
+	margin-right: 30px;
+	text-align: center;
+}
+
+#travelspic{
+	width: 318px;
+	height: 180px;
+	margin-top: -57px;
+	margin-left: 30px;
+}
